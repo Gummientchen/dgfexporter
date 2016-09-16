@@ -30,7 +30,7 @@ This is the export folder. All PDFs will be saved here. Make sure the user has f
 Change this variable to choose another name for the logfile.
 
 ### maxPDFperReport
-A report can have mutiple subreports. Only change this variable if you encounter problems with the script (e.g. unexpected stopping of the export)
+A report can have multiple subreports. Only change this variable if you encounter problems with the script (e.g. unexpected stopping of the export)
 
 ### timeout
 Change this if your machine is slow or your reports are very big. 30 seconds is normaly enough, shoulden't be set to more than 600 seconds.
