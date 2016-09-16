@@ -320,19 +320,3 @@ Func _WinGetClass($hWnd)
     If @error = 0 Then Return $aGCNDLL[2]
     Return SetError(1, 0, '')
  EndFunc
-
-
-;   __    __    ___  _        __   ___   ___ ___    ___      ______   ___       ___    ____   ____  _       ___    ____
-; |  |__|  |  /  _]| |      /  ] /   \ |   |   |  /  _]    |      | /   \     |   \  |    | /    || |     /   \  /    |
-; |  |  |  | /  [_ | |     /  / |     || _   _ | /  [_     |      ||     |    |    \  |  | |  o  || |    |     ||   __|
-; |  |  |  ||    _]| |___ /  /  |  O  ||  \_/  ||    _]    |_|  |_||  O  |    |  D  | |  | |     || |___ |  O  ||  |  |
-; |  `  '  ||   [_ |     /   \_ |     ||   |   ||   [_       |  |  |     |    |     | |  | |  _  ||     ||     ||  |_ |
-;  \      / |     ||     \     ||     ||   |   ||     |      |  |  |     |    |     | |  | |  |  ||     ||     ||     |
-;   \_/\_/  |_____||_____|\____| \___/ |___|___||_____|      |__|   \___/     |_____||____||__|__||_____| \___/ |___,_|
-;
-; Quote: GemoWin NG ist eine durchgängige Gesamtlösung für öffentliche Verwaltungen. Im Vordergrund von GemoWin NG steht
-;        die Integration der Geschäftsprozesse und die zentrale Datenbewirtschaftung. Daten müssen nur einmal erfasst
-;        werden und stehen allen Modulen zur Verfügung, dies erhöht die Qualität und die Effizienz.
-;        (Source: https://www.dialog.ch/de/produkte/gemowin-ng/)
-;
-;        Allright, but exporting your data SUCKS HARD!
