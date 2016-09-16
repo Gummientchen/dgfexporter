@@ -7,7 +7,7 @@ Exports "Fakturen" in "DIALOG Gebührenfakturierung" to PDF files
 2. Open the SciTE Script Editor
 3. Open the file "GEB_autoPrint.au3"
 4. Change the variables accordingly to your needs.
-5. Open "Gebührenfakturierung" with an user which has GEB_Admin rights (preferably on the server itself)
+5. Open "Gebührenfakturierung" with a user which has GEB_Admin rights (preferably on the server itself)
 6. Set the default printer settings
   1. Datei -> Drucker einrichten
   2. Ausgabe: Drucker
